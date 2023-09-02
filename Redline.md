@@ -34,10 +34,12 @@ There will be five tabs: Memory, Disk, System, Network, Other
 
 Memory:
 You can configure the script to collect memory data such as process listings, driver enumeration, and hook detection. 
+
 ![image](https://github.com/Shawn-Nichol/Cybersecurity_tools/assets/30714313/041e626b-7675-401d-9e9b-ff68dbac6e4e)
 
 Disk:
 This is where you can collect the data on Disk partitions and Volumes along with File Enumeration.
+
 ![image](https://github.com/Shawn-Nichol/Cybersecurity_tools/assets/30714313/0892140d-9139-49b2-93c6-e5df7f503e46)
 
 System: 
@@ -48,16 +50,19 @@ The system will provide you with machine information.
 - Obtain user accounts (Windows only)
 - Obtain groups (OS X only)
 - Obtain the prefetch cache (Windows Only)
+  
 ![image](https://github.com/Shawn-Nichol/Cybersecurity_tools/assets/30714313/7871947e-26b7-49d6-bc30-0b3a3b632b29)
 
 
 Network: 
 Network options support Windows OS X and Linux platforms. You can configure the  script to collect network information and browser history, which is essential when investigating browser activities, including malicious file downloads and inbound/outbound connections. 
+
 ![image](https://github.com/Shawn-Nichol/Cybersecurity_tools/assets/30714313/94798460-aa44-4a06-9fa4-00da72f17e52)
 
 
 Other: 
 Collect the data on different services and tasks running on the system, including the hashes. 
+
 ![image](https://github.com/Shawn-Nichol/Cybersecurity_tools/assets/30714313/2d26cfc8-544b-4b11-a093-24d440098a75)
 
 
@@ -72,6 +77,7 @@ After the script is completed, open the newly generated session folder and selec
 
 Task 3
 Open Anasis file
+
 ![image](https://github.com/Shawn-Nichol/Cybersecurity_tools/assets/30714313/840c3bbb-8381-48f0-bcae-3dd251ec00d4)
 
 Left panel 
@@ -99,3 +105,7 @@ Additional important sections
 ![image](https://github.com/Shawn-Nichol/Cybersecurity_tools/assets/30714313/2e1025dc-903c-4d60-a2b8-47395d9f1e57)
 
 Task 4
+Navigate through the RedLine GUI to fine all the answers. 
+
+![image](https://github.com/Shawn-Nichol/Cybersecurity_tools/assets/30714313/4704be3e-4df1-4bb1-aa75-1d958f94600d)
+
