@@ -1,3 +1,4 @@
+Task 1
 Redline is a tool developed by FireEye that will analyze a potentially compromised endpoint through the memory dump, including various file structures with a GUI. 
 
 Redline can find the following
@@ -8,6 +9,10 @@ Redline can find the following
 - Look for suspicious strings
 - And more.
 
+![image](https://github.com/Shawn-Nichol/Cybersecurity_tools/assets/30714313/5eb3e5b1-6540-440b-a232-8866311cee5b)
+
+
+Task 2
   Collect Data options
   1. Create a Standard Collector: Configure the script to gather a minimum amount of data for analysis. 
   2. Create a Comprehensive Collector: Configure the script to gather the most data from your script. 
@@ -62,3 +67,35 @@ Review Results
 Select "RunRedLineAudit.bat" as an administrator; this will open a cmd window that indicates that the script is running successfully and close when the data collection is done. This process can take 15 to 20 minutes. 
 
 After the script is completed, open the newly generated session folder and select "AnalysisSession1".
+
+![image](https://github.com/Shawn-Nichol/Cybersecurity_tools/assets/30714313/ef417318-009e-4089-9547-afdfc7ed1de2)
+
+Task 3
+Open Anasis file
+![image](https://github.com/Shawn-Nichol/Cybersecurity_tools/assets/30714313/840c3bbb-8381-48f0-bcae-3dd251ec00d4)
+
+Left panel 
+- System information: information about the machine, BIOS (Windows only), OS, and user information
+- Processes: Processes will contain attributes such as Process Name, PID, Path, Arguments, Parent process, username, etc.
+
+A handle is a connection from a process to an object or resource in a Windows OS. OS use handles for referencing internal objects like files, registry keys, resources.
+
+Memory solutions will let you investigate unsinged memory sections used by some processes. Many processes usually use legitimate DLLs, which will be signed. If you see an unsigned DLL, take a look. 
+
+Strings show information on captured strings.
+
+Ports This is where you review suspicious inbound and outbound connections. Threat actors like to avoid detection by hiding under system processes. For example, explorer.exe or notepad.exe shouldn't be on the processes with outbound connections list. 
+
+Additional important sections
+- File System
+- Registry
+- Windows Services
+- Tasks
+- Event logs
+- ARP and Route Entries
+- Browser URL history
+- File Download history
+
+![image](https://github.com/Shawn-Nichol/Cybersecurity_tools/assets/30714313/2e1025dc-903c-4d60-a2b8-47395d9f1e57)
+
+Task 4
