@@ -7,7 +7,7 @@ Left panel
 - System information: information about the machine, BIOS (Windows only), OS, and user information
 - Processes: Processes will contain attributes such as Process Name, PID, Path, Arguments, Parent process, username, etc.
 
-A handle is a connection from a process to an object or resource in a Windows OS. OS use handles for referencing internal objects like files, registry keys, resources.
+A handle is a connection from a process to an object or resource in a Windows OS. OS uses handles for referencing internal objects like files, registry keys, and resources.
 
 Memory solutions will let you investigate unsinged memory sections used by some processes. Many processes usually use legitimate DLLs, which will be signed. If you see an unsigned DLL, take a look. 
 
