@@ -1,4 +1,4 @@
-Task 1-9 gives an overview of Volatility; during these tasks, no questions are asked so that all relevant content will be stored in one repository. 
+Task 1-9 gives an overview of Volatility; no questions are asked during these tasks so that all relevant content will be stored in one repository. 
 
 <h2>Connect to Volatility</h2>
 Volatility is a free memory forensics tool developed and maintained by the Volatility Foundation, commonly used by malware and SOC analysts.
@@ -10,7 +10,8 @@ Navigate to the Opt Directory\Volaility3
 
 
 <h2>Plugins</h2>
-Windows info
+Windows.info
+- Provides system info
 ![image](https://github.com/Shawn-Nichol/TryHackMe/assets/30714313/d4bb8cba-1848-4ace-aa45-0c2096dbbf92)
 
 <h3>PListing Processes and Connections</h3>
