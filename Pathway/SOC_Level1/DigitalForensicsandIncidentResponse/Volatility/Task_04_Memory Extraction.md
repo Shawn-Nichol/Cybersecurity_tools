@@ -6,8 +6,9 @@ Tools that can extract Memory from a bare metal machine
 - Memoryze
 - FastDump
 
-  <h2>Hyper visor virtual memory files</h2>
-  - VMWare-.vmem
-  - Hyper-v - .bin
-  - Parallels - .mem
-  - VirtualBox - .sav
+<h2>Hyper visor virtual memory files</h2>  
+
+- VMWare - .vmem
+- Hyper-v - .bin
+- Parallels - .mem
+- VirtualBox - .sav
