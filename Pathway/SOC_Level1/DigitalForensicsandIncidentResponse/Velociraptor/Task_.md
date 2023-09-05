@@ -78,5 +78,98 @@ Question 4: There is hidden text in a file located in the Admin's Documents fold
 Navigate to the administrator's document folder and look for a flag txt file. 
 ![image](https://github.com/Shawn-Nichol/TryHackMe/assets/30714313/b6ad0d4b-9580-46e9-9a80-52d5e0e67226)
 
-
 Answer: THM{VkVMT0NJUkFQVE9S}
+
+
+Task 6
+
+Question 1: What is followed after the SELECT keyword in a standard VQL query?
+
+This information can be found in the documentation under [VQL Fundamentals](https://docs.velociraptor.app/docs/vql/)
+![image](https://github.com/Shawn-Nichol/TryHackMe/assets/30714313/a9e89317-ab00-44bc-b4a3-75e5801f8f52)
+
+Answer: Column Selectors
+
+Question 2: What goes after the FROM  keyword?
+
+This information can be found in the documentation under [VQL Fundamentals](https://docs.velociraptor.app/docs/vql/)
+![image](https://github.com/Shawn-Nichol/TryHackMe/assets/30714313/745dca89-c433-4e1c-8b70-a4b9ccc64aba)
+
+Answer: VQL Plugin
+
+Question 3: What is followed by the WHERE keyword?
+
+This information can be found in the documentation under [VQL Fundamentals](https://docs.velociraptor.app/docs/vql/)
+![image](https://github.com/Shawn-Nichol/TryHackMe/assets/30714313/d61f290d-e23a-47af-8ad8-58adc1ec6399)
+
+Answer: Filter Expression
+
+Question 4: What can you type in the Notepad interface to view a list of possible completions for a keyword?
+
+This information can be found in the documentation under [VQL Fundamentals](https://docs.velociraptor.app/docs/vql/)
+![image](https://github.com/Shawn-Nichol/TryHackMe/assets/30714313/0b25759e-c817-489e-b508-0fc8df6e1892)
+
+Answer:?
+
+Question 5: What plugin would you use to run PowerShell code from Velociraptor?
+
+This information can be found in the documentation under [Extending VQL](https://docs.velociraptor.app/docs/extending_vql/)
+![image](https://github.com/Shawn-Nichol/TryHackMe/assets/30714313/93da8531-01dd-45a1-882a-fbc2f9aa945b)
+
+Answer: execve()
+
+
+Task 7
+
+Question 1: What are the arguments for parse_mft()?
+This information can be found in the documentation under [NTFS Analysis](https://docs.velociraptor.app/docs/forensic/ntfs/)
+![image](https://github.com/Shawn-Nichol/TryHackMe/assets/30714313/066f2168-291e-4711-b068-9305e8ff3638)
+
+
+Answer: parse_mft(filename="C:/$MFT", accessor="ntfs")
+
+Question 2: What filter expression will ensure that no directories are returned in the results?
+This information can be found in the documentation under [Searching Filenames](https://docs.velociraptor.app/docs/forensic/filesystem/)
+![image](https://github.com/Shawn-Nichol/TryHackMe/assets/30714313/95a137e8-feee-4f37-9249-3a9eb8d9ebcc)
+
+Answer:IsDir
+
+Task 8
+
+Question 1: What is the name in the Artifact Exchange to detect Printnightmare?
+
+You can search for vulnerabilities in the [Artifact Exchange](https://docs.velociraptor.app/exchange/) section of the documentation
+![image](https://github.com/Shawn-Nichol/TryHackMe/assets/30714313/7563f109-247f-4477-81fe-09b8f682c540)
+![image](https://github.com/Shawn-Nichol/TryHackMe/assets/30714313/48e20314-5cfa-428a-a79b-03987e7c2d2c)
+
+Answer: Windows.Detection.PrintNightmare
+
+Question 2: Per the above instructions, what is your Select clause? (no spaces after commas)
+Use the Skelton query provided in the task and fill it out based on the instructions provided in the task. 
+
+Answer: SELECT "C:/" + FullPath AS Full_Path,FileName AS File_Name,parse_pe(file="C:/" + FullPath) AS PE
+
+Question 3: What is the name of the DLL that was  placed by the attacker?
+
+Open velociraptor GUI
+- CMD, navigate to the desktop dir
+- run velociraptor.exe gui
+- Accept risk
+
+Create a new notebook and following vql query
+
+SELECT "C:/" + FullPath AS Full_Path,FileName AS File_Name,parse_pe(file="C:/" + FullPath) AS PE FROM parse_mft(filename="C:/$MFT", accessor="ntfs")
+WHERE NOT IsDir 
+    AND FullPath =~ "Windows/System32/spool/drivers" 
+    AND PE
+
+Next scroll through the result until you find a suspicious DLL
+
+Answer: nightmare.dll
+
+Question 4: What is the PDB entry?
+
+PDB info can be found in the DLL entry from the previous question. 
+![image](https://github.com/Shawn-Nichol/TryHackMe/assets/30714313/cac46e34-5b6a-41cc-9132-a0f632acc070)
+
+Answer: C:\Users\caleb\source\repos\nightmare\x64\Release\nightmare.pdb
