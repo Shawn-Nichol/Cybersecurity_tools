@@ -56,3 +56,27 @@ Scroll to the bottom of the uploaded files tab to see the amount of files upload
 Answer: 20
 
 Task 5
+
+Question 1: Which accessor can access hidden NTFS files and Alternate Data Streams? 
+Look at the documentation for [Velociraptor VFS](https://docs.velociraptor.app/docs/gui/vfs/)
+
+Answer: NTFS accessor
+
+Question 2: Which accessor provides file-like access to the registry?
+Look at the documentation for [Velociraptor VFS](https://docs.velociraptor.app/docs/gui/vfs/)
+
+Answer: registry accessor
+
+Question 3: What is the name of the file in $Recycle.Bin?
+
+Navigate to the recycle.bin in VFS, be sure to refresh each directory as you go. 
+![image](https://github.com/Shawn-Nichol/TryHackMe/assets/30714313/0dbcb2fe-631d-458c-abcb-28030e5e0872)
+
+Answer: Desktop.ini
+Question 4: There is hidden text in a file located in the Admin's Documents folder. What is the flag?
+
+Navigate to the administrator's document folder and look for a flag txt file. 
+![image](https://github.com/Shawn-Nichol/TryHackMe/assets/30714313/b6ad0d4b-9580-46e9-9a80-52d5e0e67226)
+
+
+Answer: THM{VkVMT0NJUkFQVE9S}
