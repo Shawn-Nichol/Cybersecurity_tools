@@ -31,16 +31,16 @@ https://urlscan.io/
 
 
 ## URL Extractor
-https://www.convertcsv.com/url-extractor.htm
+https://www.convertcsv.com/url-extractor.htm </br>
 https://gchq.github.io/CyberChef/
 
 ## URL Reputation check
-https://talosintelligence.com/talos_file_reputation
+https://talosintelligence.com/talos_file_reputation </br>
 https://www.virustotal.com/gui/home/upload
 
 ## Malware sandbox
 Upload attachments to check what the malware was does. 
-https://app.any.run/
+https://app.any.run/ </br>
 https://www.joesecurity.org/
 
 ## PhishTool
