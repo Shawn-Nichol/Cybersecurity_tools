@@ -26,7 +26,7 @@ MTA (message Transfer Agent), A program running on a mail server that receives m
 MUA (Message User Agent) is a mail client application used by an end user to access a mail server to read, compose, and send email messages. Common MUAs include Microsoft Outlook and Mozilla Thunderbird.
 
 ## IP scanners
-https://ipinfo.io/
+https://ipinfo.io/ </br>
 https://urlscan.io/
 
 
