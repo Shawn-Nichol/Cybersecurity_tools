@@ -1,0 +1,19 @@
+## Task 5 Managing Computers in AD
+By default, all computers that join a domina will be put in the container called "Computers."
+
+Devices should be divided into at least the following three groups.
+
+** Work Stations**
+Workstations are one of the most common devices within an AD. Each user in the domain will likely be logging into a workstation. This is the device they will use to do their work or normal browsing activities. These devices should never have a privileged user signed into them. 
+
+** Servers **
+Servers are the second most common device within an AD. Servers are generally used to provide services to users or other servers.
+
+** Domain Controllers
+DC is the third most common device within an AD. DC allows you to manage the AD. These devices are often deemed the most sensitive devices within the network as they contain hashed passwords for all user's accounts within the environment. 
+
+Question: After organizing the available computers, how many ended up in the Workstations OU?
+Answer 7
+
+Question: Is it recommendable to create separate OUs for servers and workstations? (yay/nay)
+Answer: yay
