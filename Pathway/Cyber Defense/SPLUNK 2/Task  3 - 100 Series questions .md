@@ -67,7 +67,7 @@ After the initial contact with the CEO, Amber contacted another employee at this
 
 Answer: hbernhard@berkbeer.com 
 
-# Question 6
+## Question 6
 What is the name of the file attachment that Amber sent to a contact at the competitor?
 
 ![image](https://github.com/Shawn-Nichol/TryHackMe/assets/30714313/6619d541-d28d-4567-a1e7-9bdd8798f192)
