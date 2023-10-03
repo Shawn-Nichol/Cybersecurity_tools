@@ -70,6 +70,23 @@ Answer: hbernhard@berkbeer.com
 # Question 6
 What is the name of the file attachment that Amber sent to a contact at the competitor?
 
+![image](https://github.com/Shawn-Nichol/TryHackMe/assets/30714313/6619d541-d28d-4567-a1e7-9bdd8798f192)
+
+Answer: Saccharomyces_cerevisiae_patent.docx
+
+## Question 7 
+What is Amber's personal email address?
+
+The most recent email has encrypted data that will need to be unencrypted. When scanning the raw data, you can see several notes saying the data is encrypted with BASE64. 
+
+Copy a section of the raw data between quotation marks and paste into an encryption decoder site. 
+- cyberchef.org
+- www.base64decode.org
+
+```
+bXNvLXN0eWxlLXR5cGU6ZXhwb3J0LW9ubHk7DQoJZm9udC1zaXplOjEwLjBwdDt9DQpAcGFnZSBX\r\nb3JkU2VjdGlvbjENCgl7c2l6ZTo4LjVpbiAxMS4waW47DQoJbWFyZ2luOjEuMGluIDEuMGluIDEu\r\nMGluIDEuMGluO30NCmRpdi5Xb3JkU2VjdGlvbjENCgl7cGFnZTpXb3JkU2VjdGlvbjE7fQ0KLS0+\r\nPC9zdHlsZT48IS0tW2lmIGd0ZSBtc28gOV0+PHhtbD4NCjxvOnNoYXBlZGVmYXVsdHMgdjpleHQ9\r\nImVkaXQiIHNwaWRtYXg9IjEwMjYiIC8+DQo8L3htbD48IVtlbmRpZl0tLT48IS0tW2lmIGd0ZSBt\r\nc28gOV0+PHhtbD4NCjxvOnNoYXBlbGF5b3V0IHY6ZXh0PSJlZGl0Ij4NCjxvOmlkbWFwIHY6ZXh0\r\nPSJlZGl0IiBkYXRhPSIxIiAvPg0KPC9vOnNoYXBlbGF5b3V0PjwveG1sPjwhW2VuZGlmXS0tPg0K\r\nPC9oZWFkPg0KPGJvZHkgbGFuZz0iRU4tVVMiIGxpbms9IiMwNTYzQzEiIHZsaW5rPSIjOTU0Rjcy\r\nIj4NCjxkaXYgY2xhc3M9IldvcmRTZWN0aW9uMSI+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIj5UaGFu\r\na3MgZm9yIHRha2luZyB0aGUgdGltZSB0b2RheSwgQXMgZGlzY3Vzc2VkIGhlcmUgaXMgdGhlIGRv\r\nY3VtZW50IEkgd2FzIHJlZmVycmluZyB0by4mbmJzcDsgUHJvYmFibHkgYmV0dGVyIHRvIHRha2Ug\r\ndGhpcyBvZmZsaW5lLiBFbWFpbCBtZSBmcm9tIG5vdyBvbiBhdA0KPGEgaHJlZj0ibWFpbHRvOmFt\r\nYmVyc3RoZWJlc3RAeWVhc3RpZWJlYXN0aWUuY29tIj5hbWJlcnN0aGViZXN0QHllYXN0aWViZWFz\r\ndGllLmNvbTwvYT4NCjxvOnA+PC9vOnA+PC9wPg0KPHAgY2xhc3M9Ik1zb05vcm1hbCI+PG86cD4m\r\nbmJzcDs8L286cD48L3A+DQo8ZGl2Pg0KPGRpdiBzdHlsZT0iYm9yZGVyOm5vbmU7Ym9yZGVyLXRv\r\ncDpzb2xpZCAjRTFFMUUxIDEuMHB0O3BhZGRpbmc6My4wcHQgMGluIDBpbiAwaW4iPg0KPHAgY2xh\r\nc3M9Ik1zb05vcm1hbCI+PGI+RnJvbTo8L2I+IDxhIGhyZWY9Im1haWx0bzpoYmVybmhhcmRAYmVy\r\na2JlZXIuY29tIj5oYmVybmhhcmRAYmVya2JlZXIuY29tPC9hPiBbPGEgaHJlZj0ibWFpbHRvOmhi\r\n
+```
+Decode the data, here you can see section of the email address and combine missing pieces to get the full address. 
 ![Uploading image.png…]()
 
-Answer: 
+Answer: ambersthebest@yeastiebeastie.com
