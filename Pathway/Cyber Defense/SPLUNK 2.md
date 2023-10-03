@@ -1,6 +1,6 @@
 ## Task 3
 
-Question 1: Amber turning has hoping for Frothly to be acquired by a potential competitor which fell through, but visited their website to find contact information for their executive team. What is the website domain that she visited? 
+## Question 1: Amber turning has hoping for Frothly to be acquired by a potential competitor which fell through, but visited their website to find contact information for their executive team. What is the website domain that she visited? 
 
 First, find Ambers IP address.
 ```
@@ -31,5 +31,44 @@ Break down of the final command
 
 - | table site: Finally, the table command is used to format the output. It restricts the output to only show the values of the "site" field in tabular format. This means the results will display a single column showing unique "site" values from the filtered events.
 
+Answer: www.berkbeer.com
+
+## Question 2
+Amber found the executive contact information and sent him an email.  What image file displayed the executive's contact information? 
+```
+index="botsv2" 10.0.2.101 sourcetype="stream:http" site="www.berkbeer.com"
+| table uri_path
+```
+![image](https://github.com/Shawn-Nichol/TryHackMe/assets/30714313/c91daf35-d089-4bb3-82b7-3c59632513f8)
+
+Answer: images/ceoberk.png
+
+## Question 3
+What is the CEO's name? Provide the first and last name.
+Narrow down the search result by using the following search.
+```
+index="botsv2" sourcetype="stream:smtp" Amber berkbeer.com
+```
+![image](https://github.com/Shawn-Nichol/TryHackMe/assets/30714313/3b5d92d1-998c-4c5a-8007-0d6713e365de)
+
+Answer: Martin Berk
+
+# Question 4
+What is the CEO's email address?
+
+![image](https://github.com/Shawn-Nichol/TryHackMe/assets/30714313/0574586b-955f-4972-a44f-d978bbbfa288)
+
+Answer: mberk@berkbeer.com
+
+## Question 5
+After the initial contact with the CEO, Amber contacted another employee at this competitor. What is that employee's email address?
+![image](https://github.com/Shawn-Nichol/TryHackMe/assets/30714313/e6b1ba0e-cecb-46f2-a804-2558d20bc6c5)
 
 
+Answer: hbernhard@berkbeer.com 
+
+# Question 6
+What is the name of the file attachment that Amber sent to a contact at the competitor?
+
+
+Answer: 
