@@ -70,5 +70,6 @@ Answer: hbernhard@berkbeer.com
 # Question 6
 What is the name of the file attachment that Amber sent to a contact at the competitor?
 
+![Uploading image.png…]()
 
 Answer: 
