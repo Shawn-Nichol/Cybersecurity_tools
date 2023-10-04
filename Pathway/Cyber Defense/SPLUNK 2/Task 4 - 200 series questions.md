@@ -28,7 +28,8 @@ Answer: 45.77.65.211
 Provide the IP address of the system used to run a web vulnerability scan against www.brewertalk.com.
 Look for the URI with the most traffic; this is mostly like the URI that is trying to be exploited. 
 
-![image](https://github.com/Shawn-Nichol/TryHackMe/assets/30714313/a92b87ad-493b-4ebb-98e3-60b44481a453)
+![image](https://github.com/Shawn-Nichol/TryHackMe/assets/30714313/0964c1d0-f744-4a4c-8997-8e06343df9e4)
+
 
 Answer: /member.php
 
