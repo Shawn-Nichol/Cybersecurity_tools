@@ -35,20 +35,34 @@ Answer: C = US
 Question:
 What unusual file does winsys32.dll cause to be downloaded into the Frothly environment?
 
-Answer:
+![image](https://github.com/Shawn-Nichol/TryHackMe/assets/30714313/bc92ccde-a882-481a-97ce-7e9cd11e6ed0)
+
+Follow the instructions in the hint to copy the text from SPLUNK to the THM answer properly. 
+
+Answer: 나는_데이비드를_사랑한다.hwp
 
 Question:
 What is the first and last name of the poor innocent sap who was implicated in the metadata of the file that executed PowerShell Empire on the victim's workstation? 
 
-Answer:
+Use the Hybrid Analysis link provided in the task and navigate around to find out details about the file. 
+Hybrid Analysis - https://www.hybrid-analysis.com/sample/d8834aaa5ad6d8ee5ae71e042aca5cab960e73a6827e45339620359633608cf1/598155a67ca3e1449f281ac4
+![image](https://github.com/Shawn-Nichol/TryHackMe/assets/30714313/ee18c170-8dfa-44fc-835c-a9232e9843b3)
+
+
+Answer: Ryan Kovar
 
 
 Question:
 Within the document, what kind of points are mentioned if you found the text? 
 
-Answer:
+Use the AnyRun link provided in the task; it will open the virus and provide you with the answer.
+Any.run - https://app.any.run/tasks/15d17cd6-0eb6-4f52-968d-0f897fd6c3b3
+
+Answer: cybereastegg
 
 Question: 
 To maintain persistence in the Frothly network, Taedonggang APT configured several Scheduled Tasks to beacon back to their C2 server. What single webpage is most contacted by these Scheduled Tasks? Answer example: index.php or images.html
+
+![image](https://github.com/Shawn-Nichol/TryHackMe/assets/30714313/15da5726-cbdc-49da-bb31-86e84be08ded)
 
 Answer:
