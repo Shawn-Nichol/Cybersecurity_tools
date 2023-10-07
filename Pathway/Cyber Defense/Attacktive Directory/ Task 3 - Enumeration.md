@@ -8,7 +8,7 @@ Answer: enumlinux
 Question
 What is the NetBIOS-Domain Name of the machine?
 
-Run an namp scan to 
+Run an Nmap scan to 
 ```
 nmap -sC -sV [IP address]
 ```
