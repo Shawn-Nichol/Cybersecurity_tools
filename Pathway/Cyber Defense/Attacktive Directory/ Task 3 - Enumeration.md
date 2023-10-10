@@ -8,7 +8,7 @@ Answer: enum4linux
 Question
 What is the NetBIOS-Domain Name of the machine?
 
-Use enum4linux
+Use enum4linux </br>
 ![image](https://github.com/Shawn-Nichol/TryHackMe/assets/30714313/9ddc777a-7018-4ece-addc-d51be09a1680)
 
 
