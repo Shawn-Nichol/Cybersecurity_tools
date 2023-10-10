@@ -1,5 +1,5 @@
 Question
-What utility can we use to map remote SMB sahres?
+What utility can we use to map remote SMB shares?
 
 Answer: smbclient
 
@@ -22,11 +22,11 @@ There is one particular share that we have access to that contains a text file. 
 
 ![image](https://github.com/Shawn-Nichol/TryHackMe/assets/30714313/4550c091-290b-4a9a-9ac2-0de9adf63c97)
 
-Answer:backup
+Answer: backup
 
 Question:
 What is the content of the file?
-List the files and copy the files you are interested back to you computer. 
+List the files and copy the files you are interested in back to your computer. </br>
 ![image](https://github.com/Shawn-Nichol/TryHackMe/assets/30714313/577ccfbf-ceb2-4ca1-9b99-29f3ac0b8f41)
 
 Open copied file
