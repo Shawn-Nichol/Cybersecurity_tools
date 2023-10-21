@@ -1,0 +1,3 @@
+- Identifying and analysing malicious payloads of various formats embedded in PDF's, EXE and MS Office Macros
+- Learning how to identify obfuscated code and packed files and in turn analyse these.
+- Analysing the memory dump of a PC that became infected with the Jig saw ransomware in the real-word using Volatitily. 
